@@ -1,2 +1,2 @@
 # hypr-dots
-My dot files and scripts for arch linux and hyprland. 
+My dot files and scripts hyprland. 
