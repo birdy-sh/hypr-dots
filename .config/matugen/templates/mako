@@ -1,0 +1,21 @@
+
+
+# Normal Urgency: Uses primary container for a bold, saturated background
+background-color={{ colors.primary_container.default.hex }}
+text-color={{ colors.on_primary_container.default.hex }}
+border-color={{ colors.primary.default.hex }}
+progress-color=over {{ colors.on_primary_container.default.hex }}
+
+# Low Urgency: Uses tertiary accents for a completely different color shift
+[urgency=low]
+background-color={{ colors.tertiary_container.default.hex }}
+text-color={{ colors.on_tertiary_container.default.hex }}
+border-color={{ colors.tertiary.default.hex }}
+progress-color=over {{ colors.on_tertiary_container.default.hex }}
+
+# Critical Urgency: Maximum attention using error tokens
+[urgency=high]
+background-color={{ colors.error.default.hex }}
+text-color={{ colors.on_error.default.hex }}
+border-color={{ colors.inverse_surface.default.hex }}
+progress-color=over {{ colors.on_error.default.hex }}
